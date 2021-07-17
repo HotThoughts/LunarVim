@@ -1,4 +1,23 @@
+// Place your key bindings in this file to override the defaultsauto[]
 [
+  {
+    "key": "shift+cmd+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "workbench.action.terminal.scrollToPreviousCommand",
+    "when": "terminalFocus && terminalProcessSupported && !accessibilityModeEnabled"
+  },
+  {
+    "key": "cmd+up",
+    "command": "-workbench.action.terminal.scrollToPreviousCommand",
+    "when": "terminalFocus && terminalProcessSupported && !accessibilityModeEnabled"
+  },
   {
     "key": "shift+ctrl+e",
     "command": "actions.findWithSelection"
@@ -163,9 +182,9 @@
     "command": "-vscode-neovim.ctrl-f",
     "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
   },
-  {
+ {
     "key": "space",
     "command": "whichkey.show",
-    "when": "neovim.mode != 'insert' && !inputFocus"
-  }
+    "when": "neovim.mode != 'insert' && editorTextFocus || !inputFocus"
+  },
 ]
