@@ -1,8 +1,247 @@
 {
+  "azureML.yaml.format.printWidth": 88,
+  "cSpell.allowCompoundWords": false,
+  "cSpell.ignorePaths": [
+    "node_modules",
+    "**/node_modules",
+    "**/node_modules/**",
+    "node_modules/**",
+    "vscode-extension",
+    ".git",
+    "*.dll",
+    "**/*.dll",
+    ".pre-commit-config.yaml"
+  ],
+  "cSpell.ignoreWords": [
+    "RASA"
+  ],
+  // cSpell
+  "cSpell.language": "en",
+  "cSpell.showStatus": true,
+  "cSpell.userWords": [
+    "CLOUDSDK",
+    "PGHOST",
+    "PGPASSWORD",
+    "Postgres",
+    "Serverspec",
+    "allexport",
+    "bitnami",
+    "centos",
+    "chmod",
+    "creds",
+    "gcloud",
+    "getenv",
+    "gitrivy",
+    "gserviceaccount",
+    "gsutil",
+    "jsonpath",
+    "kubectl",
+    "kubernetes",
+    "mkdir",
+    "postgresql",
+    "printf",
+    "pytest",
+    "rasabot",
+    "rhel",
+    "sendnow",
+    "shellcheck",
+    "styfle",
+    "substr",
+    "swapoff",
+    "trivy",
+    "unshallow",
+    "venv",
+    "virtualenvs",
+    "voxmedia",
+    "youremail",
+    "yourmessage",
+    "yourname",
+    "youtube"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Theme Setup
+  "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  // "editor.letterSpacing": 0.4,
+  "editor.fontWeight": "400",
+  "editor.formatOnPaste": true,
+  "editor.glyphMargin": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "on",
+  "editor.minimap.maxColumn": 88,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [
+    88
+  ],
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.showStatusBar": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 88,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/*.pdf": false,
+    "**/*.png": false,
+    "**/CVS": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    ".amlignore": true,
+    ".amlignore.amltmp": true,
+    "**/__pycache__/**": true,
+    "**/.ipynb_aml_checkpoints/**": true,
+    "**/.venv/**": true,
+    "**/data/**": true
+  },
+  "git-graph.repository.sign.commits": true,
+  "git.autofetch": true,
+  "git.ignoreRebaseWarning": true,
+  "github-actions.org-features": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": false
+  },
+  "html.format.wrapLineLength": 88,
+  "jupyter.askForKernelRestart": false,
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  // Latex Setup
+  "latex-workshop.chktex.enabled": true,
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.synctex(busy)",
+    "*.synctex.gz(busy)",
+    "*.nav",
+    "*.synctex.gz",
+    "*.run.xml",
+    "*.bcf"
+  ],
+  "latex-workshop.latex.clean.subfolder.enabled": true,
+  "latex-workshop.view.autoFocus.enabled": true,
+  "latex-workshop.view.pdf.viewer": "external",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "projectManager.git.baseFolders": [
+    "~/Desktop",
+    "~/Library/Mobile Documenss/com~apple~CloudDocs/",
+    "~/Documents",
+    "~/Personal Projects",
+    "~/RASAHQ"
+  ],
+  "projectManager.git.maxDepthRecursion": 5,
+  "projectManager.sortList": "Recent",
+  "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3",
+  "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3",
+  "redhat.telemetry.enabled": true,
+  "scm.defaultViewMode": "tree",
+  "security.workspace.trust.untrustedFiles": "open",
+  // Terminal Setup
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.fontFamily": "Monolisa",
+  "terminal.integrated.fontSize": 14,
+  "todo-tree.filtering.includeHiddenFiles": true,
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.statusBar": "top three",
+  "todo-tree.general.tagGroups": {
+    "FIXME": [
+      "FIXME",
+      "FIX"
+    ]
+  },
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "FIX",
+    "DEBUG",
+    "NOTE",
+    "REVIEW"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "DEBUG": {
+      "backgroud": "yellow",
+      "foreground": "#2f3542",
+      "icon": "alert",
+      "iconColour": "yellow"
+    },
+    "FIXME": {
+      "background": "#e55039",
+      "foreground": "#2f3542",
+      "icon": "issue-reopened",
+      "iconColour": "#e55039"
+    },
+    "NOTE": {
+      "background": "#7bed9f",
+      "foreground": "#2f3542",
+      "icon": "light-bulb",
+      "iconColour": "#2ed573"
+    },
+    "REVIEW": {
+      "background": "#9980FA",
+      "foreground": "#2f3542",
+      "icon": "eye",
+      "iconColour": "#6c5ce7"
+    },
+    "TODO": {
+      "background": "#f6b93b",
+      "foreground": "#2f3542",
+      "icon": "check-circle",
+      "iconColour": "#f39c12"
+    }
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "line"
+  },
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.regex.enableMultiLine": true,
+  "todo-tree.regex.regex": "((//|#|%|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "todo-tree.tree.groupedByTag": true,
+  "todo-tree.tree.showCountsInTree": true,
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/vimscript/nv-vscode/init.vim",
-  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/vimscript/nv-vscode/init.vim",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "whichkey.sortOrder": "alphabetically",
   "whichkey.delay": 0,
   "whichkey.bindings": [
@@ -639,7 +878,7 @@
           "key": "d",
           "name": "Directory",
           "type": "command",
-          "command": "workbench.action.files.openFolder"
+          "command": "workbench.action.files.openFileFolder"
         },
         {
           "key": "r",
@@ -651,7 +890,7 @@
           "key": "f",
           "name": "File",
           "type": "command",
-          "command": "workbench.action.files.openFile"
+          "command": "workbench.action.files.openFileFolder"
         }
       ]
     },
@@ -717,6 +956,12 @@
           "name": "Text",
           "type": "command",
           "command": "workbench.action.findInFiles"
+        },
+        {
+          "key": "p",
+          "name": "Project",
+          "type": "command",
+          "command": "projectManager.listProjects"
         }
       ]
     },
@@ -967,162 +1212,24 @@
       "command": "workbench.action.toggleZenMode"
     }
   ],
-  "workbench.editor.showTabs": true,
-  "sync.gist": "939951904a077b97f8001bc35f6b5948",
-  "gitlens.hovers.currentLine.over": "line",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "python.pythonPath": "/home/chris/.miniconda/envs/ds/bin/python",
-  "java.semanticHighlighting.enabled": true,
-  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/chris/.vscode-oss/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
-  "workbench.list.automaticKeyboardNavigation": false,
-  "oneDarkPro.editorTheme": "oneDarkPro",
-  "python.languageServer": "Pylance",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "kite.showWelcomeNotificationOnStartup": false,
-  "python.terminal.activateEnvironment": false,
-  "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "JetBrainsMono Nerd Font, Hack, Menlo, Monaco, 'Courier New', monospace",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "terminal.external.osxExec": "iTerm.app",
-  "editor.minimap.enabled": false,
-  "workbench.activityBar.visible": true,
-  "leetcode.workspaceFolder": "/Users/chris/Repos/leetcode",
-  "leetcode.defaultLanguage": "javascript",
-  "leetcode.hint.configWebviewMarkdown": false,
-  "leetcode.hint.commentDescription": false,
-  "window.zoomLevel": 2,
-  "window.menuBarVisibility": "toggle",
-  "python.dataScience.alwaysTrustNotebooks": true,
-  "python.condaPath": "$HOME/.miniconda/bin/conda",
-  "python.formatting.provider": "black",
-  "python.insidersChannel": "off",
-  "terminal.integrated.shell.linux": "/bin/zsh",
-  "terminal.external.linuxExec": "/usr/bin/alacritty",
-  "code-runner.executorMap": {
-    "python": "$pythonPath $fileName",
-    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-  },
-  "editor.tokenColorCustomizations": {
-    "[One Dark Pro]": {
-      "textMateRules": [
-        {
-          "scope": [
-            "support.class.component.open.jsx",
-            "support.class.component.close.jsx",
-            "entity.name.function.js"
-          ],
-          "settings": {
-            "foreground": "#61afef"
-          }
-        },
-
-        {
-          "scope": [
-            "variable.other.constant.object.js",
-
-            "punctuation.section.embedded.begin.jsx",
-            "punctuation.section.embedded.end.jsx"
-          ],
-          "settings": {
-            "foreground": "#abb2bf"
-          }
-        },
-        {
-          "scope": ["punctuation.definition.tag.jsx"],
-          "settings": {
-            "foreground": "#5c6370"
-          }
-        },
-        {
-          "scope": [
-            "variable.other.readwrite.js",
-            "variable.other.property.js",
-            "variable.parameter",
-            "variable.other.object.js"
-          ],
-          "settings": {
-            "foreground": "#56b6c2"
-          }
-        },
-        {
-          "scope": ["entity.other.attribute-name.jsx"],
-          "settings": {
-            "foreground": "#e5c07b"
-          }
-        },
-        {
-          "scope": [
-            "keyword.operator.assignment.js",
-            "keyword.operator.assignment.jsx",
-            "string.unquoted.js",
-            "keyword.operator.typeof.js",
-            "meta.embedded.expression.js",
-            "constant.other.object.key.js",
-            "keyword.operator.logical.js"
-          ],
-          "settings": {
-            "foreground": "#c678dd"
-          }
-        },
-        {
-          "scope": ["variable.other.constant.object.js"],
-          "settings": {
-            "foreground": "#e06c75"
-          }
-        }
-      ]
-    }
-  },
-
+  "window.zoomLevel": -1,
   "workbench.colorCustomizations": {
-    "[Default Dark+]": {
-      "statusBar.background": "#2E2E2E",
-      "statusBar.foreground": "#8C8C8C",
-      "statusBarItem.remoteBackground": "#2E2E2E",
-      "statusBarItem.remoteForeground": "#8C8C8C",
-      "activityBar.background": "#2E2E2E",
-      "tab.inactiveBackground": "#2E2E2E"
-    },
-    "[One Dark Pro]": {
-      "editor.background": "#1e2127",
-      "terminal.foreground": "#abb2bf",
-      "terminal.ansiBlack": "#1e2127",
-      "terminal.ansiBlue": "#61afef",
-      "terminal.ansiCyan": "#56b6c2",
-      "terminal.ansiGreen": "#98C379",
-      "terminal.ansiMagenta": "#c678dd",
-      "terminal.ansiRed": "#e06c75",
-      "terminal.ansiWhite": "#abb2bf",
-      "terminal.ansiYellow": "#d19a66",
-      "terminal.ansiBrightBlack": "#5c6370",
-      "terminal.ansiBrightBlue": "#61afef",
-      "terminal.ansiBrightCyan": "#56b6c2",
-      "terminal.ansiBrightGreen": "#98c379",
-      "terminal.ansiBrightMagenta": "#c678dd",
-      "terminal.ansiBrightRed": "#e06c75",
-      "terminal.ansiBrightWhite": "#ffffff",
-      "terminal.ansiBrightYellow": "#d19a66"
-    }
+    "statusBar.background": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f"
   },
-  "gitlens.advanced.telemetry.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.editor.enablePreview": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
   },
-  "emmet.showSuggestionsAsSnippets": true,
-  "material-icon-theme.showWelcomeMessage": false,
-  "gitlens.codeLens.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "git.autofetch": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "python.showStartPage": false,
-  "editor.snippetSuggestions": "bottom"
+  "workbench.list.automaticKeyboardNavigation": false,
+  "yaml.format.printWidth": 88,
+  "zenMode.hideStatusBar": false,
+  "editor.scrollBeyondLastLine": false,
+  "vscode-neovim.neovimInitVimPaths.darwin": "~/.config/nvim/utils/lv-vscode/init.vim",
+  "vscode-neovim.textDecorationsAtTop": true,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
 }
