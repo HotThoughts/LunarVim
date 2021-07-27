@@ -74,9 +74,12 @@ O.user_plugins = {
     },
     {"justinmk/vim-sneak"},
     {"easymotion/vim-easymotion"},
+    {"lukas-reineke/indent-blankline.nvim"}
 }
 
-
+-- Indent Blankline
+vim.g.indentLine_enabled = 1
+vim.g.indentLine_char = '│'
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- O.user_autocommands = {{ "BufWinEnter", "*", "echo \"hi again\""}}
 
