@@ -74,7 +74,8 @@ O.user_plugins = {
     },
     {"justinmk/vim-sneak"},
     {"easymotion/vim-easymotion"},
-    {"lukas-reineke/indent-blankline.nvim"}
+    {"lukas-reineke/indent-blankline.nvim"},
+    {"dag/vim-fish"}
 }
 
 -- Indent Blankline
