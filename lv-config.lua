@@ -31,7 +31,7 @@ O.leader_key = " "
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 O.plugin.dashboard.active = true
 O.plugin.floatterm.active = true
-O.plugin.zen.active = false
+O.plugin.zen.active = true
 O.plugin.zen.window.height = 0.90
 
 -- if you don't want all the parsers change this to a table of the ones you want
@@ -72,12 +72,15 @@ O.user_plugins = {
         config = function() require"lsp_signature".on_attach() end,
         event = "InsertEnter"
     },
+    {"justinmk/vim-sneak"},
     {"easymotion/vim-easymotion"},
-    {"dracula/vim"}
+    {"lukas-reineke/indent-blankline.nvim"},
+    {"dag/vim-fish"}
 }
 
-O.plugin.which_key.mappings["t"] = { "<cmd>ToggleTerm<CR>", "Terminal" }
-
+-- Indent Blankline
+vim.g.indentLine_enabled = 1
+vim.g.indentLine_char = '│'
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- O.user_autocommands = {{ "BufWinEnter", "*", "echo \"hi again\""}}
 
